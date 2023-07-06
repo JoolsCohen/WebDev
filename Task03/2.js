@@ -6,6 +6,6 @@ console.log(msg);
 
 function greeting() {
   let name = prompt('Давай знакомиться! Как тебя зовут?');
-  msg = `Я оч рад знакомству, ${name}!!!`
-  alert(msg)
+  msg = `Я оч рад знакомству, ${name}!!!`;
+  alert(msg);
 }

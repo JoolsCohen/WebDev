@@ -9,7 +9,7 @@
 // Советую округлить значение после расчетов, так как в некоторых случаях может получиться "длинная дробь".
 
 const tempC = Number.parseFloat(prompt('Введите температуру в градусах Цельсия'));
-alert(`${tempC} градус(а) по Цельсию равен ${weatherConvert(tempC)} градус(а) по Фаренгейту`)
+alert(`${tempC} градус(а) по Цельсию равен ${weatherConvert(tempC)} градус(а) по Фаренгейту`);
 
 function weatherConvert(num) {
   return ((9 / 5) * num + 32).toFixed(1); 
